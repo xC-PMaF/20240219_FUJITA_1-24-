@@ -1,0 +1,65 @@
+h1 {
+    font-size: 25px;
+    line-height: 200%;
+    color: rgb(94, 2, 136);
+}
+
+img {
+    z-index: 9999;
+    position: absolute;
+    top: 12%;
+    right: 0%;
+    transform: scale(0.98);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0px;
+    background-color: #00000000;
+    color: #00357a;
+}
+
+.header-ttl {
+    font-size: 24px;
+    width: 80px;
+}
+
+.header-nav-list {
+    display: flex;
+    font-weight: bold;
+}
+
+.header-nav-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.everydaysmile {
+    font-family: "Noto Serif JP", serif;
+    position: absolute;
+    font-size: 85px;
+    bottom: 0;
+    width: 50%;
+    padding: 0px;
+    height: 310px;
+
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 75%;
+    padding: 10px;
+    text-align: center;
+    background: #001883;
+    height: 200px;
+    color: #001883;
+
+}
